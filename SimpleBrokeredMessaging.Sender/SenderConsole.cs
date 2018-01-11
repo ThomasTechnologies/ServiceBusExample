@@ -1,9 +1,10 @@
 ﻿
-using System;
-using Microsoft.ServiceBus.Messaging;
 
 namespace SimpleBrokeredMessaging.Sender
 {
+
+    using System;
+    using Microsoft.ServiceBus.Messaging;
     public class SenderConsole
     {
         static string connectionString = "Endpoint=sb://gcexchange.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=73Tg/PfMEiqIKGKHSa/9QnqOEQtubmRww8+/ibpAGi8=";
